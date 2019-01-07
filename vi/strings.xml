@@ -16,8 +16,8 @@
     <string name="drawer_nav_watch_face">Watch face</string>
     <string name="drawer_nav_alarm">Giám sát thất lạc</string>
     <string name="drawer_nav_disconnected_agent">Nhật ký</string>
-    <string name="drawer_nav_theme">Theme</string>
-    <string name="drawer_nav_backup">Backup</string>
+    <string name="drawer_nav_theme">Giao diện</string>
+    <string name="drawer_nav_backup">Sao lưu</string>
     <string name="drawer_nav_rewarded_mode">Chế độ thưởng</string>
     <string name="drawer_nav_premium_mode">Phiên bản nâng cấp</string>
     <string name="drawer_nav_feedback">Phản hồi</string>
@@ -25,8 +25,8 @@
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <string name="shortcut_touch">Chạm</string>
-    <string name="shortcut_step">Pedometer</string>
-    <string name="shortcut_pulse">Nhịp timi</string>
+    <string name="shortcut_step">đồng hồ đếm bước</string>
+    <string name="shortcut_pulse">Nhịp tim</string>
     <string name="shortcut_time_alarm">Báo thức</string>
     <string name="shortcut_reminder">Nhắc nhở sự kiện</string>
 
@@ -41,56 +41,56 @@
     <string name="info_name">Thông tin</string>
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Steps, distance, calories, goal, pulse</string>
+    <string name="mi_band_tracker_title">Số bước, khoảng cách, lượng ca-lo, mục tiêu, nhịp tim</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Battery level, last charging time, estimated remaining time</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
-    <string name="mi_band_touch">Touch monitoring</string>
-    <string name="mi_band_alarm">Next alarm</string>
+    <string name="mi_band_battery">Mức pin, thời gian sạc lần cuối, thời gian còn lại ước tính</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI, thời gian cuối cùng kết nối  và thời gian còn lại</string>
+    <string name="mi_band_touch">Hiển thị chạm</string>
+    <string name="mi_band_alarm">Báo thức tiếp theo</string>
     <string name="mi_band_bonded_device_name">Tên thiết bị kết nối</string>
     <string name="mi_band_mac_address">Địa chỉ MAC</string>
-    <string name="mi_band_firmware">Firmware</string>
+    <string name="mi_band_firmware">Phần mềm</string>
     <string name="mi_band_hardware">Phần cứng</string>
 
     <string name="mi_band_mac_address_invalid">Địa chỉ MAC không hợp lý</string>
 
     <string name="mi_band_state_title">%1$s settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="mi_band_state_connected">Connected</string>
-    <string name="mi_band_state_disconnected">Disconnected</string>
-    <string name="mi_band_state_bonded">Paired device</string>
-    <string name="mi_band_state_not_bonded">Not paired device</string>
+    <string name="mi_band_state_connected">Đã kết nối</string>
+    <string name="mi_band_state_disconnected">Đã ngắt kết nối</string>
+    <string name="mi_band_state_bonded">Thiết bị đã ghép đôi</string>
+    <string name="mi_band_state_not_bonded">Thiết bị chưa ghép đôi</string>
 
     <!-- Battery -->
     <string name="battery_details">Battery usage</string>
 
     <string name="mi_band_battery_remaining">Thời gian bắt đầu giám sát</string>
-    <string name="mi_band_battery_settings">Battery settings</string>
-    <string name="mi_band_battery_notification">Low battery level notification</string>
-    <string name="mi_band_battery_notification_level">Low battery level</string>
-    <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
-    <string name="mi_band_battery_notification_shade">Notify me on the phone</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
-    <string name="mi_band_battery_notification_shade_message">Battery level is low: %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Notify me on the bracelet</string>
-    <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
+    <string name="mi_band_battery_settings">Thiết lập pin</string>
+    <string name="mi_band_battery_notification">Thông báo mức pin thấp</string>
+    <string name="mi_band_battery_notification_level">Mức pin yếu</string>
+    <string name="mi_band_battery_notification_repeat_interval">Khoảng lặp</string>
+    <string name="mi_band_battery_notification_shade">Thông báo cho tôi qua điện thoại</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Thông báo liên tục</string>
+    <string name="mi_band_battery_notification_shade_message">Pin yếu: %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Thông báo cho tôi trên vòng đeo tay</string>
+    <string name="mi_band_battery_notification_mi_band_message">Pin: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Cài đặt kết nối</string>
     <string name="pref_connected_summary">Cài đặt tín hiệu kết nối trên %1$s và thiết bị </string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_connected_signals">Connection signals</string>
+    <string name="pref_connected_signals">Tín hiệu kết nối</string>
     <string name="pref_connected_signals_summary">%1$s đang kết nối và không có thông báo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_signals_mi_band">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Tín hiệu Band</string>
-    <string name="pref_cat_connected_signals">Device signals</string>
+    <string name="pref_cat_connected_signals">Tín hiệu thiết bị</string>
     <string name="pref_connected_wakelock_title">Sáng màn hình thiết bị</string>
 
-    <string name="pref_connected_settings">Connection settings</string>
-    <string name="pref_connected_settings_summary">%1$s and device connection settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_connected_settings">Device settings</string>
-    <string name="pref_connected_volume_title">Adjust the volume</string>
-    <string name="pref_connected_volume_ring_title">Ring volume</string>
+    <string name="pref_connected_settings">Thiết lập kết nối</string>
+    <string name="pref_connected_settings_summary">%1$s và thiết lập thiết bị</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_settings">cài đặt thiết bị</string>
+    <string name="pref_connected_volume_title">Chỉnh âm lượng</string>
+    <string name="pref_connected_volume_ring_title">Âm lượng chuông</string>
 
     <string name="pref_cat_connected_have_notif">Tín hiệu cho ứng dụng được xác định trước và Band</string>
     <string name="pref_cat_connected_have_notif_default">Cài đặt được xác định trước và cài đặt tùy chỉnh</string>
@@ -99,7 +99,7 @@
     <string name="pref_connected_have_notif_reminder_title">Tín hiệu nhắc nhở</string>
     <string name="pref_connected_have_notif_screen_off_title">Phát tín hiệu chỉ khi màn hình thiết bị tắt</string>
     <string name="pref_connected_have_notif_interval_title">Khoảng thời gian lặp lại nhắc nhở </string>
-    <string name="pref_connected_have_notif_counter_title">Signals cardinality</string>
+    <string name="pref_connected_have_notif_counter_title">Nhịp đập</string>
     <string name="pref_connected_have_notif_wakelock_title">Sáng màn hình thiết bị</string>
     <string name="pref_connected_have_notif_ongoing_title">Tín hiệu liên tục thông báo (thường xuyên)</string>
     <string name="pref_connected_have_notif_default_app_title">Tín hiệu ứng dụng không nhận dạng</string>
@@ -110,17 +110,17 @@
     <string name="pref_disconnected">Cài đặt ngắt kết nối</string>
     <string name="pref_disconnected_summary">Tín hiệu %1$s và thiết bị  khi bị ngắt kết nối </string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_disconnected_signals">Disconnection signals</string>
-    <string name="pref_disconnected_signals_summary">%1$s and device disconnection signals, it does not signal when the bluetooth is turned off manually</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_disconnected_signals_mi_band">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals">Tín hiệu ngắt kết nối</string>
+    <string name="pref_disconnected_signals_summary">%1$s và tín hiệu ngắt kết nối thiết bị, nó không báo hiệu khi tắt bluetooth thủ công</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">%1$s tín hiệu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Hiển thị biểu tượng</string>
     <string name="pref_cat_disconnected_signals">Tín hiệu thiết bị</string>
     <string name="pref_disconnected_ringtone_title">Nhạc chuông</string>
     <string name="pref_disconnected_vibration_title">Rung</string>
     <string name="pref_disconnected_wakelock_title">Đánh thức màn hình thiết bị</string>
 
-    <string name="pref_disconnected_settings">Disconnection settings</string>
-    <string name="pref_disconnected_settings_summary">%1$s and device disconnection settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_settings">Cài đặt ngắt kết nối</string>
+    <string name="pref_disconnected_settings_summary">%1$s và cài đặt ngắt kết nối thiết bị</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">Device settings</string>
     <string name="pref_disconnected_volume_title">Adjust the volume</string>
     <string name="pref_disconnected_volume_ring_title">Ring volume</string>
