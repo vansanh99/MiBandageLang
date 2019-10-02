@@ -13,11 +13,11 @@
     <string name="drawer_nav_time">Giám sát thời gian</string>
     <string name="drawer_nav_reminder">Nhắc nhở sự kiện</string>
     <string name="drawer_nav_weather">Thời tiết</string>
-    <string name="drawer_nav_watch_face">Watch face</string>
+    <string name="drawer_nav_watch_face">Giao diện</string>
     <string name="drawer_nav_alarm">Giám sát thất lạc</string>
     <string name="drawer_nav_disconnected_agent">Nhật ký</string>
-    <string name="drawer_nav_theme">Theme</string>
-    <string name="drawer_nav_backup">Backup</string>
+    <string name="drawer_nav_theme">Chủ đề</string>
+    <string name="drawer_nav_backup">Sao lưu</string>
     <string name="drawer_nav_rewarded_mode">Chế độ thưởng</string>
     <string name="drawer_nav_premium_mode">Phiên bản nâng cấp</string>
     <string name="drawer_nav_feedback">Phản hồi</string>
@@ -25,8 +25,8 @@
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <string name="shortcut_touch">Chạm</string>
-    <string name="shortcut_step">Pedometer</string>
-    <string name="shortcut_pulse">Nhịp timi</string>
+    <string name="shortcut_step">Đếm bước</string>
+    <string name="shortcut_pulse">Nhịp tim</string>
     <string name="shortcut_time_alarm">Báo thức</string>
     <string name="shortcut_reminder">Nhắc nhở sự kiện</string>
 
